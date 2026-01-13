@@ -62,7 +62,7 @@ If you prefer to use a different SQL database system (PostgreSQL, MySQL, SQLite)
 5. Include comments in your file indicating which question each query answers
 
 **Important Notes:**
-- **Core Questions (1-12)** are required
+- **Core Questions (1-7)** are required
 - **Extra Credit Questions** are optional but encouraged
 - Test your queries to make sure they work and return the expected results
 - Focus on correctness first, then consider efficiency
@@ -79,8 +79,7 @@ If you prefer to use a different SQL database system (PostgreSQL, MySQL, SQLite)
 
 ### Step 2: Write Your Responses
 
-1. Create a document named `[YourName]_support_responses.txt` (or .docx, .pdf)
-   - Example: `JohnDoe_support_responses.txt`
+1. Create a file named `ticket_scenarios_answers.md` in the root of your repository
 2. Write a professional support ticket response for each scenario
 3. Label your responses clearly (Scenario 1, Scenario 2)
 
@@ -99,27 +98,36 @@ If you prefer to use a different SQL database system (PostgreSQL, MySQL, SQLite)
 
 ### What to Submit
 
-Please submit the following files:
+Please add the following files to your repository:
 
 1. `[YourName]_sql_solutions.sql` - Your SQL query answers
-2. `[YourName]_support_responses.txt` (or .docx/.pdf) - Your support ticket responses
+2. `ticket_scenarios_answers.md` - Your support ticket responses
 
 ### How to Submit
 
-Send your files to: **[INSERT EMAIL ADDRESS HERE]**
+**Option 1: Fork and Submit (Recommended)**
+1. Fork this repository to your own GitHub account
+2. Add your solution files to the forked repository
+3. Commit and push your changes
+4. Share the link to your repository: **[INSERT EMAIL ADDRESS HERE]**
 
-**Email Subject:** Technical Support Engineer Assessment - [Your Full Name]
+**Option 2: Clone and Submit**
+1. Clone this repository to your local machine
+2. Add your solution files to the cloned repository
+3. Create a new repository on GitHub (or your preferred git hosting service)
+4. Push your changes to your new repository
+5. Share the link to your repository: **[INSERT EMAIL ADDRESS HERE]**
 
 **Deadline:** [INSERT DEADLINE HERE]
 
 ### Submission Checklist
 
 Before submitting, please verify:
-- [ ] All required SQL questions (1-12) are answered
+- [ ] All required SQL questions (1-7) are answered
 - [ ] SQL queries are tested and working
-- [ ] Both support scenarios have responses
-- [ ] Files are named correctly with your name
-- [ ] Your name is included in the email subject line
+- [ ] Both support scenarios have responses in `ticket_scenarios_answers.md`
+- [ ] Files are named correctly
+- [ ] Your repository is accessible and contains all solution files
 
 ---
 

@@ -12,7 +12,7 @@ For each scenario below, write a professional support ticket response as if you 
 - Setting appropriate expectations
 
 **Submission Format:**
-- Write your responses in a document named `your_name_support_responses.txt` or `.docx`
+- Write your responses in a file named `ticket_scenarios_answers.md`
 - Label each response clearly (Scenario 1, Scenario 2)
 - There is no strict length requirement, but aim for responses that are thorough yet concise
 
@@ -57,8 +57,6 @@ Write a support ticket response to Sarah as if you were responding to this custo
 
 Consider what information would be helpful to include in your response, how you would communicate with the customer, and what next steps would be appropriate. Write your response in your own words as if you were emailing the customer directly.
 
-**Write your response below this line:**
-
 **The answer to the technical problem is:**
 
 The error is occurring because at least one of the records has a missing (`None`) value for the `date` field, so calling `.strftime()` on it fails. This may be due to new or changed data with null or blank dates. The script needs to check if `record['date']` is not `None` before calling `.strftime()`—for example:
@@ -69,10 +67,6 @@ if record['date']:
 else:
     formatted_date = ''
 ```
-
-**This is the answer for the technical issue. Write your response below this line providing the information above:**
-
-
 
 ---
 
@@ -102,6 +96,8 @@ Write a support ticket response to James as if you were responding to this custo
 
 Consider what information would be helpful to include in your response, how you would communicate with the customer, and what next steps would be appropriate. Write your response in your own words as if you were emailing the customer directly.
 
-**Write your response below this line:**
+---
+
+**Remember:** Save all your responses in `ticket_scenarios_answers.md` with clear labels for each scenario.
 
 Good luck!

@@ -45,6 +45,18 @@ For each scenario below, write a professional support ticket response as if you 
 > Thanks,
 > Sarah
 
+---
+
+
+
+**Now, write your customer response using this answer, and make sure to:**
+- Acknowledge the urgency and empathy for the customer's situation.
+- Ask clarifying questions as needed to help diagnose (such as, "Are there any new records? Has the data format changed?").
+- Offer the technical workaround above, mentioning you can help apply it.
+- Explain next steps or set expectations for how you will follow up.
+- Do not just copy-paste the above code or explanation; write it in your own words as if emailing the customer.
+
+
 ### Your Task:
 
 Write a support ticket response to Sarah. Consider:
@@ -54,6 +66,21 @@ Write a support ticket response to Sarah. Consider:
 - How would you set expectations for resolution?
 
 **Write your response below this line:**
+
+**The answer to the technical problem is:**
+
+The error is occurring because at least one of the records has a missing (`None`) value for the `date` field, so calling `.strftime()` on it fails. This may be due to new or changed data with null or blank dates. The script needs to check if `record['date']` is not `None` before calling `.strftime()`—for example:
+
+```python
+if record['date']:
+    formatted_date = record['date'].strftime('%Y-%m-%d')
+else:
+    formatted_date = ''
+```
+
+**This is the answer for the technical issue. Write your response below this line providing the information above:**
+
+
 
 ---
 
@@ -86,47 +113,5 @@ Write a support ticket response to James. Consider:
 - How would you guide him toward next steps without overpromising?
 
 **Write your response below this line:**
-
----
-
-## Evaluation Criteria
-
-Your responses will be evaluated on:
-
-### Communication Quality (40%)
-- Professional tone and grammar
-- Clear, organized structure
-- Appropriate level of technical detail for the audience
-- Concise yet thorough
-
-### Customer Empathy (25%)
-- Acknowledges customer's situation and feelings
-- Shows understanding of their business impact
-- Maintains positive, helpful attitude
-- Manages urgency appropriately
-
-### Diagnostic Thinking (25%)
-- Asks relevant clarifying questions
-- Identifies what information is needed
-- Demonstrates logical problem-solving approach
-- Provides actionable guidance
-
-### Expectation Management (10%)
-- Sets realistic timelines
-- Explains next steps clearly
-- Doesn't overpromise or make assumptions
-- Offers alternatives when appropriate
-
----
-
-## Tips for Success
-
-1. **Start with empathy** - Acknowledge the customer's situation before diving into technical details
-2. **Ask before assuming** - If you're not sure what they mean, ask clarifying questions
-3. **Be honest about limitations** - It's okay to say "I need to investigate this" or "I'll need to check with our team"
-4. **Provide value immediately** - Even if you can't solve it right away, offer something helpful (documentation, workaround, timeline)
-5. **Use clear structure** - Break your response into logical sections (acknowledgment, questions, next steps, etc.)
-6. **Avoid jargon** - Explain technical concepts in plain language when possible
-7. **End with clear next steps** - Make it obvious what will happen next and what the customer should do (if anything)
 
 Good luck!

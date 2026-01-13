@@ -60,18 +60,8 @@ Write a query to calculate the total amount (sum) of all orders with a status of
 
 ---
 
-### Question 5: Finding Averages
-**Business Context:** Product team wants to understand our pricing strategy.
 
-Write a query to find the average price of products in the 'Electronics' category. Round the result to 2 decimal places.
-
-**Expected Output:** A single number representing the average price
-
-**What we're evaluating:** AVG function, WHERE clause, ROUND function
-
----
-
-### Question 6: Sorting and Limiting Results
+### Question 5: Sorting and Limiting Results
 **Business Context:** Customer service needs to see the 10 most recent orders.
 
 Write a query to display the 10 most recent orders (by order_date). Show the order id, customer_id, order_date, total_amount, and status. Sort from newest to oldest.
@@ -82,18 +72,7 @@ Write a query to display the 10 most recent orders (by order_date). Show the ord
 
 ---
 
-### Question 7: Using DISTINCT
-**Business Context:** We want to know which unique statuses exist in our orders table.
-
-Write a query to list all distinct (unique) order statuses that appear in the Orders table.
-
-**Expected Output:** A list of unique status values (completed, pending, cancelled, etc.)
-
-**What we're evaluating:** DISTINCT keyword usage
-
----
-
-### Question 8: String Pattern Matching
+### Question 6: String Pattern Matching
 **Business Context:** A customer called and said their email contains "smith" but they can't remember the exact address.
 
 Write a query to find all customers whose email address contains the word "smith" (case-insensitive). Display their name and email.
@@ -104,7 +83,7 @@ Write a query to find all customers whose email address contains the word "smith
 
 ---
 
-### Question 9: Handling NULL Values
+### Question 7: Handling NULL Values
 **Business Context:** Data quality check - we need to identify customers with missing email addresses.
 
 Write a query to find all customers who do NOT have an email address (NULL email). Display their id, name, and signup_date.
@@ -115,38 +94,6 @@ Write a query to find all customers who do NOT have an email address (NULL email
 
 ---
 
-### Question 10: Grouping with HAVING
-**Business Context:** We want to identify our most valuable customers.
-
-Write a query to find customers who have placed more than 2 orders. Display the customer_id and the count of their orders. Only show customers with more than 2 orders.
-
-**Expected Output:** Customer IDs with their order counts (only those with >2 orders)
-
-**What we're evaluating:** GROUP BY, COUNT, HAVING clause
-
----
-
-### Question 11: Date Filtering and Formatting
-**Business Context:** Marketing wants to analyze orders from Q4 2024.
-
-Write a query to find all orders placed between October 1, 2024 and December 31, 2024 (inclusive). Display the order id, customer_id, order_date, and total_amount. Order by date.
-
-**Expected Output:** All orders from Q4 2024, sorted by date
-
-**What we're evaluating:** Date range filtering with BETWEEN or comparison operators
-
----
-
-### Question 12: Using COALESCE/ISNULL
-**Business Context:** We need to export customer data, but want to show "No Email Provided" instead of NULL for missing emails.
-
-Write a query that displays all customer names and their email addresses. If the email is NULL, display "No Email Provided" instead.
-
-**Expected Output:** All customers with either their email or "No Email Provided"
-
-**What we're evaluating:** COALESCE or ISNULL function to handle NULL values
-
----
 
 ## Extra Credit Questions (Optional)
 
@@ -160,30 +107,6 @@ Write a query that shows the order id, order date, total amount, and customer na
 **Expected Output:** Completed orders with customer names included
 
 **What we're evaluating:** Basic INNER JOIN syntax and understanding
-
----
-
-### Extra Credit 2: LEFT JOIN with NULL Checking
-**Business Context:** We want to identify any products that have never been ordered.
-
-Write a query using a LEFT JOIN to find all products that do NOT appear in the OrderItems table. Display the product id, name, and category.
-
-**Hint:** Products that have never been ordered will have NULL values from the OrderItems table.
-
-**Expected Output:** Products with no corresponding order items
-
-**What we're evaluating:** LEFT JOIN, NULL checking to find unmatched records
-
----
-
-### Extra Credit 3: Multi-Table JOIN
-**Business Context:** Sales team wants a detailed report of what products each customer has purchased.
-
-Write a query that displays customer name, order date, product name, quantity, and unit price. Join Customers, Orders, OrderItems, and Products tables. Only show completed orders. Order by customer name, then order date.
-
-**Expected Output:** Detailed purchase history with customer and product information
-
-**What we're evaluating:** Multi-table JOINs, understanding of table relationships
 
 ---
 

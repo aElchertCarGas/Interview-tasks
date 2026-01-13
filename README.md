@@ -107,8 +107,6 @@ Please add the following files to your repository:
 4. Push your changes to your new repository
 5. Return the link to your repository to HR
 
-**Deadline:** [INSERT DEADLINE HERE]
-
 ### Submission Checklist
 
 Before submitting, please verify:

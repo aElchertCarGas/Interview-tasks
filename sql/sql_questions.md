@@ -23,8 +23,6 @@ Write a query to find the customer named "Alice Johnson" and display their name,
 
 **Expected Output:** One row with Alice Johnson's information
 
-**What we're evaluating:** Basic SELECT and WHERE clause usage
-
 ---
 
 ### Question 2: Filtering with Multiple Conditions
@@ -33,8 +31,6 @@ Write a query to find the customer named "Alice Johnson" and display their name,
 Write a query to find all customers who have an 'inactive' status AND signed up before June 1, 2024. Display their name, email, and signup date.
 
 **Expected Output:** Multiple rows of inactive customers who signed up before 2024-06-01
-
-**What we're evaluating:** Using AND/OR operators, date comparisons
 
 ---
 
@@ -45,8 +41,6 @@ Write a query to count how many products exist in each category. Display the cat
 
 **Expected Output:** Each category with its product count
 
-**What we're evaluating:** COUNT function, GROUP BY clause
-
 ---
 
 ### Question 4: Calculating Totals
@@ -55,8 +49,6 @@ Write a query to count how many products exist in each category. Display the cat
 Write a query to calculate the total amount (sum) of all orders with a status of 'completed'.
 
 **Expected Output:** A single number representing total completed order revenue
-
-**What we're evaluating:** SUM function, WHERE filtering
 
 ---
 
@@ -68,8 +60,6 @@ Write a query to display the 10 most recent orders (by order_date). Show the ord
 
 **Expected Output:** 10 rows showing the most recent orders
 
-**What we're evaluating:** ORDER BY with DESC, TOP/LIMIT clause
-
 ---
 
 ### Question 6: String Pattern Matching
@@ -79,8 +69,6 @@ Write a query to find all customers whose email address contains the word "smith
 
 **Expected Output:** Customers with "smith" anywhere in their email
 
-**What we're evaluating:** LIKE operator with wildcards
-
 ---
 
 ### Question 7: Handling NULL Values
@@ -89,8 +77,6 @@ Write a query to find all customers whose email address contains the word "smith
 Write a query to find all customers who do NOT have an email address (NULL email). Display their id, name, and signup_date.
 
 **Expected Output:** Customers with NULL in the email column
-
-**What we're evaluating:** IS NULL operator, understanding of NULL handling
 
 ---
 
@@ -105,8 +91,6 @@ These questions involve JOINs and are optional. Completing them demonstrates add
 Write a query that shows the order id, order date, total amount, and customer name for all completed orders. Use an INNER JOIN between Orders and Customers tables.
 
 **Expected Output:** Completed orders with customer names included
-
-**What we're evaluating:** Basic INNER JOIN syntax and understanding
 
 ---
 

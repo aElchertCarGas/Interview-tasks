@@ -53,7 +53,7 @@ For each scenario below, write a professional support ticket response as if you 
 
 Write a support ticket response to Sarah as if you were responding to this customer in a real support scenario. 
 
-**The technical answer to the problem is provided above for your reference.** Use this information to craft a professional, helpful response that addresses the customer's needs.
+**The technical answer to the problem is provided below for your reference.** Use this information to craft a professional, helpful response that addresses the customer's needs.
 
 Consider what information would be helpful to include in your response, how you would communicate with the customer, and what next steps would be appropriate. Write your response in your own words as if you were emailing the customer directly.
 

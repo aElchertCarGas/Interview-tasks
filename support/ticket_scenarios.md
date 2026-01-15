@@ -98,6 +98,47 @@ Consider what information would be helpful to include in your response, how you 
 
 ---
 
+## Scenario 3: Data Accuracy / Report Investigation
+
+### Customer's Ticket:
+
+**Subject:** Report showing wrong numbers
+
+**From:** Maria Rodriguez, Finance Director at Global Manufacturing Inc.
+
+**Message:**
+> Hi Support,
+>
+> Our monthly revenue report is showing $45,000 for last month, but when I manually add up all our invoices, I'm getting $52,000. This is a huge discrepancy and my CFO is asking questions.
+>
+> I've checked our data entry - everything looks correct on our end. The report has been working fine for the past 6 months, so I don't know what changed. Can you help me figure out why the numbers don't match?
+>
+> This is urgent - I need to present accurate numbers to the board next week.
+>
+> Thanks,
+> Maria Rodriguez
+
+### Provided Information:
+
+After initial investigation, you've discovered the following:
+- The report query filters orders by `status = 'completed'` only
+- There are orders in the database with statuses: 'completed', 'pending', 'processing', 'cancelled'
+- The report uses the `total_amount` field directly from the Orders table
+- Some orders have order_date in the previous month but were completed in the current month
+- The customer's manual calculation includes all invoices regardless of status
+
+### Your Task:
+
+Write a support ticket response to Maria. Use the provided information to ask specific, technical questions that will help diagnose the discrepancy. Consider:
+- What technical details do you need to understand the root cause?
+- How would you explain the potential issues you've identified?
+- What questions would help you determine if this is a data issue, query logic issue, or reporting configuration issue?
+- How would you manage the urgency while ensuring accuracy?
+
+Write your response in your own words as if you were emailing the customer directly.
+
+---
+
 **Remember:** Save all your responses in `ticket_scenarios_answers.md` with clear labels for each scenario.
 
 Good luck!

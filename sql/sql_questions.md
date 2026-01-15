@@ -80,6 +80,23 @@ Write a query to find all customers who do NOT have an email address (NULL email
 
 ---
 
+### Question 8: Root Cause Analysis / Complex Filtering
+**Business Context:** A customer reports that their report shows duplicate orders. You need to identify orders that might be duplicates based on same customer, same date, and similar total amounts.
+
+Write a query to find potential duplicate orders - orders from the same customer on the same date where the total_amount differs by less than $5. Display both order_ids, customer_id, order_date, and both total_amounts.
+
+**Expected Output:** Pairs of orders that might be duplicates
+
+---
+
+### Question 9: Stored Procedure Debugging Scenario
+**Business Context:** A customer reports that a stored procedure is returning incorrect results. You need to trace through the logic.
+
+Write a query that simulates what a stored procedure might be doing: Find all customers who have placed more than 2 orders, but exclude any customers who have any cancelled orders. Display customer name, total number of orders, and total amount spent across all their orders.
+
+**Expected Output:** Customers with >2 orders and no cancelled orders, with their order counts and totals
+
+---
 
 ## Extra Credit Questions (Optional)
 

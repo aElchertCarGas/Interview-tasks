@@ -104,9 +104,9 @@ Please add the following files to your repository:
 ### Submission Checklist
 
 Before submitting, please verify:
-- [ ] All required SQL questions (1-7) are answered
+- [ ] All required SQL questions (1-9) are answered
 - [ ] SQL queries are tested and working
-- [ ] Both support scenarios have responses in `ticket_scenarios_answers.md`
+- [ ] All support scenarios have responses in `ticket_scenarios_answers.md`
 - [ ] Files are named correctly
 - [ ] Your repository is accessible and contains all solution files
 

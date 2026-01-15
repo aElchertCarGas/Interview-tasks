@@ -65,15 +65,6 @@ This assessment is designed to evaluate your SQL fundamentals and support commun
 2. Write a professional support ticket response for each scenario
 3. Label your responses clearly (Scenario 1, Scenario 2, Scenario 3, Scenario 5, Scenario 6)
 
-**What We're Looking For:**
-- Professional, empathetic communication
-- Logical problem-solving approach
-- Appropriate clarifying questions
-- Realistic expectation setting
-- Clear next steps
-
-**Note:** You don't need to know Python to complete these scenarios. We're evaluating your support communication skills, not your programming knowledge.
-
 ---
 
 ## Submission

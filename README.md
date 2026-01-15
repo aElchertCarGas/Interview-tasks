@@ -63,7 +63,7 @@ This assessment is designed to evaluate your SQL fundamentals and support commun
 
 1. Create a file named `ticket_scenarios_answers.md` in the root of your repository
 2. Write a professional support ticket response for each scenario
-3. Label your responses clearly (Scenario 1, Scenario 2, Scenario 3, Scenario 5, Scenario 6)
+3. Label your responses clearly (Scenario 1, Scenario 2, Scenario 3, Scenario 4, Scenario 5)
 
 ---
 

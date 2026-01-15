@@ -135,7 +135,7 @@ Write your response in your own words as if you were emailing the customer direc
 
 ---
 
-## Scenario 5: Multi-Step Issue / Integration Problem
+## Scenario 4: Multi-Step Issue / Integration Problem
 
 ### Customer's Ticket:
 
@@ -169,7 +169,7 @@ Write your response in your own words as if you were emailing the customer direc
 
 ---
 
-## Scenario 6: Ambiguous Problem / Needs Investigation
+## Scenario 5: Ambiguous Problem / Needs Investigation
 
 ### Customer's Ticket:
 
